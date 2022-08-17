@@ -6,12 +6,5 @@
         "activityBar.background": "#734f95",
         "statusBarItem.remoteBackground": "#5e2491",
         "statusBar.background": "#734f95",
-        //"tab.activeBackground": "#734f9565"
     },
-    // "fortran.linter.compilerPath": "C:\\Users\\blayl_depgywe\\miniconda3\\envs\\learn_fortran\\Library\\mingw-w64\\bin\\gfortran.exe",
-    //"fortran.formatting.path": "C:\\Users\\blaylock\\miniconda3\\envs\\learn_fortran\\Scripts",
-    //"fortran.fortls.path": "C:\\Users\\blaylock\\miniconda3\\envs\\learn_fortran\\Scripts\\fortls.exe",
-    // "code-runner.executorMap": {
-    //     "FortranFreeForm": "cd $dir && C:\\Users\\blayl_depgywe\\miniconda3\\envs\\learn_fortran\\Library\\mingw-w64\\bin\\gfortran.exe $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-    // }
 }

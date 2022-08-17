@@ -77,6 +77,9 @@ I'm using the **Code Runner** extension to do a quick compile and run of a Fortr
 
 - https://fortran-lang.org/
 - https://fortranwiki.org/fortran/show/HomePage
+- https://www.fortran90.org/src/rosetta.html
+- https://www.tutorialspoint.com/fortran/
+- https://ourcodingclub.github.io/tutorials/fortran-intro/?ref=www.asquero.com
 
 ### Fortran in VS Code
 
