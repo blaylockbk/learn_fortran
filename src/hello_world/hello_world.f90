@@ -9,7 +9,9 @@ program sandbox
    character(len=10) :: name
 
    name = "Brian"
+
    ! This is a comment line, it is ignored by the compiler
+
    print *, "Hello World! 🌎 My name is "//name
    print *, "It is a great day to learn Fortran"
 

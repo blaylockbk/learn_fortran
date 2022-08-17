@@ -1,1 +1,3 @@
-src/sandbox
+src/sandbox/*
+!src/sandbox/.gitkeep
+

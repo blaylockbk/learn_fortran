@@ -1,4 +1,6 @@
 program write_with_pencil
+   !! Demonstarte object-oriented programing
+   
    implicit none
 
    type :: pencil
