@@ -2,6 +2,7 @@
 ! June 9, 2022
 
 ! Sandbox program for testing
+! Please rename the directory to `sandbox` to not track with git
 
 program sandbox
    implicit none
