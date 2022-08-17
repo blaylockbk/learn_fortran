@@ -1,7 +1,7 @@
 ! Brian Blaylock
 ! Feberuary 9, 2022
 
-program sandbox
+program sample_sandbox
    !! A "Hello World" Fortran program
 
    implicit none
@@ -15,4 +15,4 @@ program sandbox
    print *, "Hello World! 🌎 My name is "//name
    print *, "It is a great day to learn Fortran"
 
-end program sandbox
+end program sample_sandbox

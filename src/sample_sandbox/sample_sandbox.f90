@@ -4,7 +4,7 @@
 ! Sandbox program for testing
 ! Please rename the directory to `sandbox` to not track with git
 
-program sandbox
+program sample_sandbox
    implicit none
 
    character(len=20)  :: name
@@ -18,4 +18,4 @@ program sandbox
 
    print *, a, b, a + b
 
-end program sandbox
+end program sample_sandbox
