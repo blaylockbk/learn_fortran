@@ -10,14 +10,15 @@ This is Brian's sandbox for learning Fortran using **VS Code**. I intend to setu
 
 ## Set up
 
-### 1. Clone this repository 
+### 1. Clone this repository
+
 Now open the folder/workspace in VS Code.
 
 ### 2. Install recommended VS Code extensions
 
-Install the following recommended VS Code extensions. 
+Install the following recommended VS Code extensions.
 
-- Modern Fortran 
+- Modern Fortran
 - Code Runner
 
 ### 3. Create the Conda environment
@@ -51,6 +52,7 @@ C:\Users\blaylock\Miniconda3\envs\learn_fortran\Library\mingw-w64\bin
 C:\Users\blaylock\Miniconda3\envs\learn_fortran\Scripts
 C:\Users\blaylock\Miniconda3\envs\learn_fortran\bin
 ```
+
 ![](images/pc_environment.png)
 
 #### Linux
