@@ -47,3 +47,9 @@ where fprettify
 ## Quick Compile
 
 I'm using the **codeRunner** extension to do a quick compile and run of a Fortran program. When you have a source code file in focus, use the shortcut `Ctrl+Alt+N` to compile and run the Fortran program. The output will show in the terminal window.
+
+## Resources
+
+- https://fortran-lang.org/
+- https://github.com/JHenneberg/Guide_VSCode-fortran
+- https://marketplace.visualstudio.com/items?itemName=fortran-lang.linter-gfortran
