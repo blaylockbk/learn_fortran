@@ -20,13 +20,13 @@ The fastest way is to run the VS Code task
 
 When you want to update the environment, run the task `🥇 Conda: Update environment learn_fortran`
 
-### Install the VS Code Modern Fortran Extension
+### Install the VS Code Extensions
 
-Install this extension
+Install the recommended VS Code extensions.
 
-### Update PATH variable
+### Update Workspace Settings
 
-Add PATH for `gfortran`, `fortls`, and `fprettify` to the VS Code workspace settings.
+Open the [workspace settings](.vscode/settings.json) and update the PATH for `gfortran`, `fortls`, and `fprettify`.
 
 You can find the path for your installation with these commands
 
