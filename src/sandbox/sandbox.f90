@@ -9,6 +9,7 @@ program sandbox
    name = "Brian Blaylock"
 
    print *, a, b, a + b
-   write (*, *), "Hello there, ", trim(name)
+
+   write (*, *), "Hello there, ", trim(name)//'!'
 
 end program sandbox
