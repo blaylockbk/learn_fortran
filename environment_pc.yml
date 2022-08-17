@@ -1,0 +1,28 @@
+# Conda Environment for Windows PC
+
+name: learn_fortran
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - fortls
+  - fpm
+  - git
+  - lfortran # Fortran compiler
+  - m2w64-gcc-fortran # Fortran compiler (https://github.com/msys2/MINGW-packages/discussions/12013)
+  - pip:
+      - findent
+      - fprettify
+##############################################################################
+# Additional Set Up
+###############################################################################
+# 1) Create this environment
+#     conda env create -f environment_win.yml
+#
+# 2) Install the VS Code Modern Fortran Extension
+#
+# 3) Add gfortran, findent, fprettyfy to my user environment PATH variables
+# You can find the path for your installation with these commands
+#    where gfortran
+#    where findent
+#    where fprettify

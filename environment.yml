@@ -1,0 +1,28 @@
+# Conda Environment for Linus and MacOS
+
+name: learn_fortran
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - fortls
+  - fpm
+  - gfortran # Fortran compiler
+  - git
+  - lfortran # Fortran compiler
+  - pip:
+      - findent
+      - fprettify
+###############################################################################
+# Additional Set Up
+###############################################################################
+# 1) Create this environment
+#     conda env create -f environment_win.yml
+#
+# 2) Install the VS Code Modern Fortran Extension
+#
+# 3) Edit the VS Code workspace settings to add gfortran, fortls, and fprettyfy
+# PATHS. You can find the PATH for your installation with these commands:
+#    which gfortran
+#    which fortls
+#    which fprettify

@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "fortran-lang.linter-gfortran",
+        "formulahendry.code-runner"
+    ]
+}

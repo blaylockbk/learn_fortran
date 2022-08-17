@@ -1,0 +1,36 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo hello there",
+            "windows": {
+                "command": "echo hello Windows"
+            },
+        },
+        {
+            "label": "🐍 Conda: Create environment learn_fortran",
+            "type": "shell",
+            "command": "conda env create -f environment.yml",
+            "windows": {
+                "command": "conda env create -f environment_pc.yml"
+            }
+        },
+        {
+            "label": "🥇 Conda: Update environment learn_fortran",
+            "type": "shell",
+            "command": "conda env update -f environment.yml --prune",
+            "windows": {
+                "command": "conda env update -f environment_pc.yml"
+            }
+        },
+        {
+            "label": "💣 Conda: Destroy environment learn_fortran ",
+            "type": "shell",
+            "command": "conda activate base && conda env remove --name learn_fortran"
+        },
+    ]
+}
