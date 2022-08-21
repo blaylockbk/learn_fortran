@@ -75,7 +75,7 @@ export PATH="$PATH:/Users/blaylock/anaconda3/envs/learn_fortran/bin"
 
 ## Quick Compile
 
-I'm using the **Code Runner** extension to do a quick compile and run of a Fortran program. When you have a source code file in focus (i.e., `src/hello_world/hello_world.f90`), use the shortcut `Ctrl+Alt+N` to compile and run the Fortran program. The output will show below in the terminal window.
+I'm using the **Code Runner** extension to do a quick compile and run of a Fortran program. When you have a program source code file open and in focus (i.e., `src/hello_world/hello_world.f90`), use the shortcut `Ctrl+Alt+N` to compile and run the Fortran program. The output will show below in the terminal window. It's that easy.
 
 ## Learning Resources
 
