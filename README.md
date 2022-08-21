@@ -6,7 +6,9 @@
 
 </div>
 
-This is Brian's sandbox for learning Fortran using **VS Code**. My goal to that this environment will work on both Linux and Windows.
+So you want to learn Fortran. Well, so do I. This is Brian's sandbox for learning Fortran using **VS Code**.
+
+My goal is that this learning environment will work on both Linux and Windows using software available on conda-forge.
 
 ## Set up
 
