@@ -6,15 +6,15 @@
 
 </div>
 
-This is Brian's sandbox for learning Fortran using **VS Code**. I intend to setup the development environment to work on both Linux and Windows.
+This is Brian's sandbox for learning Fortran using **VS Code**. My goal to that this environment will work on both Linux and Windows.
 
 ## Set up
 
 ### 1. Clone this repository
 
-Now open the folder/workspace in VS Code.
+Clone this repository and open the folder/workspace in VS Code.
 
-### 2. Install recommended VS Code extensions
+### 2. Install the recommended VS Code extensions
 
 Install the following recommended VS Code extensions.
 
@@ -23,7 +23,7 @@ Install the following recommended VS Code extensions.
 
 ### 3. Create the Conda environment
 
-Assuming you have Conda installed, the fastest way to install the provided Conda environment is to run the VS Code custom workspace task:
+Assuming you have the Conda package manager installed, the fastest way to create the provided Conda environment is to run the VS Code custom workspace task:
 
 1. Open command pallet with `Ctrl+Shift+P`.
 1. Run `Tasks: Run Task`
@@ -31,9 +31,9 @@ Assuming you have Conda installed, the fastest way to install the provided Conda
 
 > **Note**: When you want to update the environment, run the task `🥇 Conda: Update environment learn_fortran`
 
-### 4. Include conda programs in your PATH
+### 4. Include installed programs in your PATH
 
-Add `gfortran`, `fortls`, and `fprettify` to your environment PATH.
+Add `gfortran`, `fortls`, and `fprettify` to your environment PATH. See platform-specific details below:
 
 #### Windows
 
@@ -54,6 +54,8 @@ C:\Users\blaylock\Miniconda3\envs\learn_fortran\bin
 ```
 
 ![](images/pc_environment.png)
+
+> Note: Watch for an update to the [m2w64-gfortran](https://github.com/msys2/MINGW-packages/discussions/12013) compiler 😁.
 
 #### Linux
 
@@ -82,6 +84,7 @@ I'm using the **Code Runner** extension to do a quick compile and run of a Fortr
 - https://www.fortran90.org/src/rosetta.html
 - https://www.tutorialspoint.com/fortran/
 - https://ourcodingclub.github.io/tutorials/fortran-intro/?ref=www.asquero.com
+- Book: https://livebook.manning.com/book/modern-fortran
 
 ### Fortran in VS Code
 

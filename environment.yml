@@ -6,6 +6,7 @@ channels:
 dependencies:
   - pip
   - fortls
+  - fortran_stdlib
   - fpm
   - gfortran
   - git
