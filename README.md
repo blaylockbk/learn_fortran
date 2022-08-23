@@ -86,6 +86,7 @@ I'm using the **Code Runner** extension to do a quick compile and run of a Fortr
 - https://www.fortran90.org/src/rosetta.html
 - https://www.tutorialspoint.com/fortran/
 - https://ourcodingclub.github.io/tutorials/fortran-intro/?ref=www.asquero.com
+- gfortran reference: (Intrinsic Procedures)[https://gcc.gnu.org/onlinedocs/gfortran/Intrinsic-Procedures.html#Intrinsic-Procedures]
 - Book: https://livebook.manning.com/book/modern-fortran
 
 ### Fortran in VS Code
